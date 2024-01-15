@@ -3,11 +3,11 @@
   "name": "electron_react-template-typescript",
   "version": "1.0.0",
   "main": "dist/main/main.js",
-  "description": "A desktop app to update Steam games",
+  "description": "Electron-based app template that allows you to create a desktop app using React as a frontend. This template enables you to develop without relying on Create-React-App and provides a simple way to build and package your application for multiple platforms.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TheNolle/Electron_React-Template-TypeScript "
+    "url": "https://github.com/TheNolle/Electron_React-Template-TypeScript"
   },
   "scripts": {
     "build": "webpack --config webpack.main.config.js && webpack --config webpack.renderer.config.js",
