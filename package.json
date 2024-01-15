@@ -4,13 +4,17 @@
   "version": "1.0.0",
   "main": "dist/main/main.js",
   "description": "A desktop app to update Steam games",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheNolle/Electron_React-Template-TypeScript "
+  },
   "scripts": {
     "build": "webpack --config webpack.main.config.js && webpack --config webpack.renderer.config.js",
     "start": "pnpm run build && electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
-  "license": "MIT",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
